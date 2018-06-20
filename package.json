@@ -1,0 +1,26 @@
+{
+  "name": "303-rest-api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "seed": "node ./bin/seed",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.37.10"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-harris": "^1.2.0",
+    "eslint-plugin-babel": "^5.1.0"
+  }
+}

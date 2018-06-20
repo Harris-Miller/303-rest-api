@@ -1,0 +1,7 @@
+{
+  "extends": "eslint-config-harris/node-recommended",
+  "rules": {
+    "no-console": 0,
+    "babel/new-cap": 0
+  }
+}

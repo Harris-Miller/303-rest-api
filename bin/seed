@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+const db = require('../db');
+
+db.connect()
+  .then(() => db._seed())
+  .then(() => process.exit(0));
